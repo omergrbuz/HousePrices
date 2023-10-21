@@ -110,13 +110,3 @@ predict = gb.predict(X_test)
 sub = df_real_results[['Id']]
 sub['SalePrice'] = predict
 sub.to_csv("sub.csv", index = None)
-
-
-
-
-
-
-
-
-
-
